@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logoalura.png">
+         </div>
+         <div class="about_me">
+            <a href="https://github.com/cambrv">
+                <img src="images/gh.png">
+            </a>
+            <a href="https://www.linkedin.com/in/camilybravo/">
+                <img src="images/li.png">
+            </a>
+         </div>
+    </header>
+        <aside>
+            <div class="msjinicial">
+                <center><img id="img" src="images/munheco.png"></center>
+                <label id="m1">Ningún mensaje fue encontrado</label>
+                <label id="m2">Ingresa el texto que desees encriptar o desencriptar</label>
+            </div>
+            <div class="resultado">
+                <textarea id="msjfinal" placeholder="Aquí aparecerá el resultado"></textarea>
+                <button id="bt_copiar">Copiar</button>
+            </div>
+        </aside>
+    <main class="main">
+            <textarea id="txtprincipal" placeholder="Ingrese el texto aquí" cols="50" rows="20"></textarea>
+            <p id="msj_alerta"> ⚠ Solo letras minúsculas y sin acentos </p>
+            <button id="bt_encriptar">Encriptar</button>
+            <button id="bt_desencriptar">Desencriptar</button> 
+            <script src="code.js"></script>
+    </main>
+    <div class="burbujas">
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+    </div>
+</body>
+</html>
